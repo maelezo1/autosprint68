@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autosprintmod",
+  "version": "1.0.2",
+  "name": "AutoSprintMod",
+  "description": "A lightweight Fabric client-side mod for Minecraft 1.21+ that automatically holds down the sprint key (Ctrl). No more finger strain – always sprint while moving!",
+  "authors": ["archangel68"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/autosprintmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "archangel68.autosprintmod.Autosprintmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.8",
+    "fabric-api": "*"
+  }
+}
